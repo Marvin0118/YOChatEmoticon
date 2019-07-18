@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E029227AC59DA623B8B216D /* libPods-YOChatEmoticon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5266317352563758B31DB49E /* libPods-YOChatEmoticon.a */; };
+		3C397E29226568ED00BFD312 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C397E28226568ED00BFD312 /* AppDelegate.m */; };
+		3C397E2C226568ED00BFD312 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C397E2B226568ED00BFD312 /* ViewController.m */; };
+		3C397E2F226568ED00BFD312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C397E2D226568ED00BFD312 /* Main.storyboard */; };
+		3C397E31226568F000BFD312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C397E30226568F000BFD312 /* Assets.xcassets */; };
+		3C397E34226568F000BFD312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C397E32226568F000BFD312 /* LaunchScreen.storyboard */; };
+		3C397E37226568F000BFD312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C397E36226568F000BFD312 /* main.m */; };
+		3C397E41226568F000BFD312 /* YOChatEmoticonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C397E40226568F000BFD312 /* YOChatEmoticonTests.m */; };
+		3C397E4C226568F000BFD312 /* YOChatEmoticonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C397E4B226568F000BFD312 /* YOChatEmoticonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C397E3D226568F000BFD312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C397E1C226568EC00BFD312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C397E23226568ED00BFD312;
+			remoteInfo = YOChatEmoticon;
+		};
+		3C397E48226568F000BFD312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C397E1C226568EC00BFD312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C397E23226568ED00BFD312;
+			remoteInfo = YOChatEmoticon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F54AFEFD4B4373D8CB54F29 /* Pods-YOChatEmoticon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOChatEmoticon.debug.xcconfig"; path = "Target Support Files/Pods-YOChatEmoticon/Pods-YOChatEmoticon.debug.xcconfig"; sourceTree = "<group>"; };
+		3C397E24226568ED00BFD312 /* YOChatEmoticon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YOChatEmoticon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C397E27226568ED00BFD312 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C397E28226568ED00BFD312 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C397E2A226568ED00BFD312 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C397E2B226568ED00BFD312 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C397E2E226568ED00BFD312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C397E30226568F000BFD312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C397E33226568F000BFD312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C397E35226568F000BFD312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C397E36226568F000BFD312 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C397E3C226568F000BFD312 /* YOChatEmoticonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOChatEmoticonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C397E40226568F000BFD312 /* YOChatEmoticonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOChatEmoticonTests.m; sourceTree = "<group>"; };
+		3C397E42226568F000BFD312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C397E47226568F000BFD312 /* YOChatEmoticonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YOChatEmoticonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C397E4B226568F000BFD312 /* YOChatEmoticonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YOChatEmoticonUITests.m; sourceTree = "<group>"; };
+		3C397E4D226568F000BFD312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5266317352563758B31DB49E /* libPods-YOChatEmoticon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YOChatEmoticon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7792E3FB9C0B1B8016C5DA36 /* Pods-YOChatEmoticon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YOChatEmoticon.release.xcconfig"; path = "Target Support Files/Pods-YOChatEmoticon/Pods-YOChatEmoticon.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C397E21226568ED00BFD312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E029227AC59DA623B8B216D /* libPods-YOChatEmoticon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C397E39226568F000BFD312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C397E44226568F000BFD312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C397E1B226568EC00BFD312 = {
+			isa = PBXGroup;
+			children = (
+				3C397E26226568ED00BFD312 /* YOChatEmoticon */,
+				3C397E3F226568F000BFD312 /* YOChatEmoticonTests */,
+				3C397E4A226568F000BFD312 /* YOChatEmoticonUITests */,
+				3C397E25226568ED00BFD312 /* Products */,
+				484837E773E45E6D06B5C4AA /* Pods */,
+				EC24CF98B95BFDD4BB07BD21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C397E25226568ED00BFD312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C397E24226568ED00BFD312 /* YOChatEmoticon.app */,
+				3C397E3C226568F000BFD312 /* YOChatEmoticonTests.xctest */,
+				3C397E47226568F000BFD312 /* YOChatEmoticonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C397E26226568ED00BFD312 /* YOChatEmoticon */ = {
+			isa = PBXGroup;
+			children = (
+				3C397E27226568ED00BFD312 /* AppDelegate.h */,
+				3C397E28226568ED00BFD312 /* AppDelegate.m */,
+				3C397E2A226568ED00BFD312 /* ViewController.h */,
+				3C397E2B226568ED00BFD312 /* ViewController.m */,
+				3C397E2D226568ED00BFD312 /* Main.storyboard */,
+				3C397E30226568F000BFD312 /* Assets.xcassets */,
+				3C397E32226568F000BFD312 /* LaunchScreen.storyboard */,
+				3C397E35226568F000BFD312 /* Info.plist */,
+				3C397E36226568F000BFD312 /* main.m */,
+			);
+			path = YOChatEmoticon;
+			sourceTree = "<group>";
+		};
+		3C397E3F226568F000BFD312 /* YOChatEmoticonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C397E40226568F000BFD312 /* YOChatEmoticonTests.m */,
+				3C397E42226568F000BFD312 /* Info.plist */,
+			);
+			path = YOChatEmoticonTests;
+			sourceTree = "<group>";
+		};
+		3C397E4A226568F000BFD312 /* YOChatEmoticonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C397E4B226568F000BFD312 /* YOChatEmoticonUITests.m */,
+				3C397E4D226568F000BFD312 /* Info.plist */,
+			);
+			path = YOChatEmoticonUITests;
+			sourceTree = "<group>";
+		};
+		484837E773E45E6D06B5C4AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F54AFEFD4B4373D8CB54F29 /* Pods-YOChatEmoticon.debug.xcconfig */,
+				7792E3FB9C0B1B8016C5DA36 /* Pods-YOChatEmoticon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC24CF98B95BFDD4BB07BD21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5266317352563758B31DB49E /* libPods-YOChatEmoticon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C397E23226568ED00BFD312 /* YOChatEmoticon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C397E50226568F000BFD312 /* Build configuration list for PBXNativeTarget "YOChatEmoticon" */;
+			buildPhases = (
+				874C865F641E3A6A468C451A /* [CP] Check Pods Manifest.lock */,
+				3C397E20226568ED00BFD312 /* Sources */,
+				3C397E21226568ED00BFD312 /* Frameworks */,
+				3C397E22226568ED00BFD312 /* Resources */,
+				71947944C4121116C0482600 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YOChatEmoticon;
+			productName = YOChatEmoticon;
+			productReference = 3C397E24226568ED00BFD312 /* YOChatEmoticon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C397E3B226568F000BFD312 /* YOChatEmoticonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C397E53226568F000BFD312 /* Build configuration list for PBXNativeTarget "YOChatEmoticonTests" */;
+			buildPhases = (
+				3C397E38226568F000BFD312 /* Sources */,
+				3C397E39226568F000BFD312 /* Frameworks */,
+				3C397E3A226568F000BFD312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C397E3E226568F000BFD312 /* PBXTargetDependency */,
+			);
+			name = YOChatEmoticonTests;
+			productName = YOChatEmoticonTests;
+			productReference = 3C397E3C226568F000BFD312 /* YOChatEmoticonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C397E46226568F000BFD312 /* YOChatEmoticonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C397E56226568F000BFD312 /* Build configuration list for PBXNativeTarget "YOChatEmoticonUITests" */;
+			buildPhases = (
+				3C397E43226568F000BFD312 /* Sources */,
+				3C397E44226568F000BFD312 /* Frameworks */,
+				3C397E45226568F000BFD312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C397E49226568F000BFD312 /* PBXTargetDependency */,
+			);
+			name = YOChatEmoticonUITests;
+			productName = YOChatEmoticonUITests;
+			productReference = 3C397E47226568F000BFD312 /* YOChatEmoticonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C397E1C226568EC00BFD312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = PPTV;
+				TargetAttributes = {
+					3C397E23226568ED00BFD312 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3C397E3B226568F000BFD312 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3C397E23226568ED00BFD312;
+					};
+					3C397E46226568F000BFD312 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3C397E23226568ED00BFD312;
+					};
+				};
+			};
+			buildConfigurationList = 3C397E1F226568EC00BFD312 /* Build configuration list for PBXProject "YOChatEmoticon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C397E1B226568EC00BFD312;
+			productRefGroup = 3C397E25226568ED00BFD312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C397E23226568ED00BFD312 /* YOChatEmoticon */,
+				3C397E3B226568F000BFD312 /* YOChatEmoticonTests */,
+				3C397E46226568F000BFD312 /* YOChatEmoticonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C397E22226568ED00BFD312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C397E34226568F000BFD312 /* LaunchScreen.storyboard in Resources */,
+				3C397E31226568F000BFD312 /* Assets.xcassets in Resources */,
+				3C397E2F226568ED00BFD312 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C397E3A226568F000BFD312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C397E45226568F000BFD312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71947944C4121116C0482600 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YOChatEmoticon/Pods-YOChatEmoticon-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/YOChatEmoticon/ChatEmoticon.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ChatEmoticon.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YOChatEmoticon/Pods-YOChatEmoticon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		874C865F641E3A6A468C451A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YOChatEmoticon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C397E20226568ED00BFD312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C397E2C226568ED00BFD312 /* ViewController.m in Sources */,
+				3C397E37226568F000BFD312 /* main.m in Sources */,
+				3C397E29226568ED00BFD312 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C397E38226568F000BFD312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C397E41226568F000BFD312 /* YOChatEmoticonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C397E43226568F000BFD312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C397E4C226568F000BFD312 /* YOChatEmoticonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C397E3E226568F000BFD312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C397E23226568ED00BFD312 /* YOChatEmoticon */;
+			targetProxy = 3C397E3D226568F000BFD312 /* PBXContainerItemProxy */;
+		};
+		3C397E49226568F000BFD312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C397E23226568ED00BFD312 /* YOChatEmoticon */;
+			targetProxy = 3C397E48226568F000BFD312 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C397E2D226568ED00BFD312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C397E2E226568ED00BFD312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C397E32226568F000BFD312 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C397E33226568F000BFD312 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C397E4E226568F000BFD312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C397E4F226568F000BFD312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C397E51226568F000BFD312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F54AFEFD4B4373D8CB54F29 /* Pods-YOChatEmoticon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K259LN949A;
+				INFOPLIST_FILE = YOChatEmoticon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pptv.YOChatEmoticon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "PPTV Wildcard Development";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3C397E52226568F000BFD312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7792E3FB9C0B1B8016C5DA36 /* Pods-YOChatEmoticon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K259LN949A;
+				INFOPLIST_FILE = YOChatEmoticon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pptv.YOChatEmoticon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "PPTV Wildcard Development";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3C397E54226568F000BFD312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69S4H25DNX;
+				INFOPLIST_FILE = YOChatEmoticonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pptv.YOChatEmoticonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOChatEmoticon.app/YOChatEmoticon";
+			};
+			name = Debug;
+		};
+		3C397E55226568F000BFD312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69S4H25DNX;
+				INFOPLIST_FILE = YOChatEmoticonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pptv.YOChatEmoticonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YOChatEmoticon.app/YOChatEmoticon";
+			};
+			name = Release;
+		};
+		3C397E57226568F000BFD312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69S4H25DNX;
+				INFOPLIST_FILE = YOChatEmoticonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pptv.YOChatEmoticonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YOChatEmoticon;
+			};
+			name = Debug;
+		};
+		3C397E58226568F000BFD312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69S4H25DNX;
+				INFOPLIST_FILE = YOChatEmoticonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pptv.YOChatEmoticonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YOChatEmoticon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C397E1F226568EC00BFD312 /* Build configuration list for PBXProject "YOChatEmoticon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C397E4E226568F000BFD312 /* Debug */,
+				3C397E4F226568F000BFD312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C397E50226568F000BFD312 /* Build configuration list for PBXNativeTarget "YOChatEmoticon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C397E51226568F000BFD312 /* Debug */,
+				3C397E52226568F000BFD312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C397E53226568F000BFD312 /* Build configuration list for PBXNativeTarget "YOChatEmoticonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C397E54226568F000BFD312 /* Debug */,
+				3C397E55226568F000BFD312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C397E56226568F000BFD312 /* Build configuration list for PBXNativeTarget "YOChatEmoticonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C397E57226568F000BFD312 /* Debug */,
+				3C397E58226568F000BFD312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C397E1C226568EC00BFD312 /* Project object */;
+}

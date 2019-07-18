@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+ 
+target 'YOChatEmoticon' do
+    platform :ios, '8.0'
+    #ignore all warnings from all pods
+    inhibit_all_warnings!
+    #UIKit
+    pod 'YOChatEmoticon', :path => '../YOChatEmoticon'
+end
