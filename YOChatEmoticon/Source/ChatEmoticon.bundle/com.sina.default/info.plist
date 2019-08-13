@@ -68,9 +68,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[爱你]</string>
+			<string>[喜欢]</string>
 			<key>cht</key>
-			<string>[愛你]</string>
+			<string>[喜欢]</string>
 			<key>gif</key>
 			<string>d_aini.gif</string>
 			<key>png</key>
@@ -80,9 +80,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[挖鼻]</string>
+			<string>[挖鼻屎]</string>
 			<key>cht</key>
-			<string>[挖鼻]</string>
+			<string>[挖鼻屎]</string>
 			<key>gif</key>
 			<string>d_wabishi.gif</string>
 			<key>png</key>
@@ -212,9 +212,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[睡]</string>
+			<string>[睡觉]</string>
 			<key>cht</key>
-			<string>[睡]</string>
+			<string>[睡觉]</string>
 			<key>gif</key>
 			<string>d_shuijiao.gif</string>
 			<key>png</key>
@@ -356,9 +356,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[悲伤]</string>
+			<string>[快哭了]</string>
 			<key>cht</key>
-			<string>[悲傷]</string>
+			<string>[快哭了]</string>
 			<key>gif</key>
 			<string>d_beishang.gif</string>
 			<key>png</key>
@@ -416,9 +416,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[太开心]</string>
+			<string>[抱抱]</string>
 			<key>cht</key>
-			<string>[太開心]</string>
+			<string>[抱抱]</string>
 			<key>gif</key>
 			<string>d_taikaixin.gif</string>
 			<key>png</key>
@@ -548,9 +548,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[顶]</string>
+			<string>[敲打]</string>
 			<key>cht</key>
-			<string>[頂]</string>
+			<string>[敲打]</string>
 			<key>gif</key>
 			<string>d_ding.gif</string>
 			<key>png</key>
@@ -776,9 +776,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[good]</string>
+			<string>[强]</string>
 			<key>cht</key>
-			<string>[good]</string>
+			<string>[强]</string>
 			<key>gif</key>
 			<string>h_good.gif</string>
 			<key>png</key>
@@ -800,9 +800,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[NO]</string>
+			<string>[不要]</string>
 			<key>cht</key>
-			<string>[NO]</string>
+			<string>[不要]</string>
 			<key>gif</key>
 			<string>h_buyao.gif</string>
 			<key>png</key>
@@ -836,9 +836,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[来]</string>
+			<string>[勾引]</string>
 			<key>cht</key>
-			<string>[來]</string>
+			<string>[勾引]</string>
 			<key>gif</key>
 			<string>h_lai.gif</string>
 			<key>png</key>
@@ -872,9 +872,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[鲜花]</string>
+			<string>[玫瑰]</string>
 			<key>cht</key>
-			<string>[鮮花]</string>
+			<string>[玫瑰]</string>
 			<key>gif</key>
 			<string>w_xianhua.gif</string>
 			<key>png</key>
@@ -944,9 +944,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[微风]</string>
+			<string>[树叶]</string>
 			<key>cht</key>
-			<string>[微風]</string>
+			<string>[树叶]</string>
 			<key>gif</key>
 			<string>w_weifeng.gif</string>
 			<key>png</key>
@@ -1004,9 +1004,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[话筒]</string>
+			<string>[麦克风]</string>
 			<key>cht</key>
-			<string>[話筒]</string>
+			<string>[麦克风]</string>
 			<key>gif</key>
 			<string>o_huatong.gif</string>
 			<key>png</key>
@@ -1100,9 +1100,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[围脖]</string>
+			<string>[围巾]</string>
 			<key>cht</key>
-			<string>[圍脖]</string>
+			<string>[圍巾]</string>
 			<key>gif</key>
 			<string>o_weibo.gif</string>
 			<key>png</key>
@@ -1160,9 +1160,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[干杯]</string>
+			<string>[啤酒]</string>
 			<key>cht</key>
-			<string>[乾杯]</string>
+			<string>[啤酒]</string>
 			<key>gif</key>
 			<string>o_ganbei.gif</string>
 			<key>png</key>
@@ -1208,9 +1208,9 @@
 		</dict>
 		<dict>
 			<key>chs</key>
-			<string>[照相机]</string>
+			<string>[相机]</string>
 			<key>cht</key>
-			<string>[照相机]</string>
+			<string>[相机]</string>
 			<key>gif</key>
 			<string></string>
 			<key>png</key>
