@@ -51,7 +51,7 @@
         group = [YOChatEmoticonGroup yy_modelWithJSON:json];
     }
     if (!group) {
-        NSString *plistPath = [path stringByAppendingPathComponent:@"info.plist"];
+        NSString *plistPath = [path stringByAppendingPathComponent:@"Info.plist"];
         NSDictionary *plist = [NSDictionary dictionaryWithContentsOfFile:plistPath];
         if (plist.count) {
             
@@ -96,7 +96,7 @@
                 continue;
             }
             
-            NSString *fileName = [NSString stringWithFormat:@"%@/info.plist",group.groupID];
+            NSString *fileName = [NSString stringWithFormat:@"%@/Info.plist",group.groupID];
             NSString *infoPlistPath = [YOChatBundle pathForResourceWith:fileName] ;
             NSDictionary *info = [NSDictionary dictionaryWithContentsOfFile:infoPlistPath];
             [group yy_modelSetWithDictionary:info];

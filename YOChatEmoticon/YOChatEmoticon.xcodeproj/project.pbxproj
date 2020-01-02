@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -514,7 +514,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pptv.YOChatEmoticon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "PPTV Wildcard Development";
+				PROVISIONING_PROFILE_SPECIFIER = Development;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -534,7 +534,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pptv.YOChatEmoticon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "PPTV Wildcard Development";
+				PROVISIONING_PROFILE_SPECIFIER = Development;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
