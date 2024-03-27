@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "YOChatEmoticon"
-    s.version      = "1.0.2"
+    s.version      = "1.0.3"
     s.summary      = "Marvin0118"
     s.homepage     = "https://github.com/Marvin0118"
     s.license      = "MIT"
