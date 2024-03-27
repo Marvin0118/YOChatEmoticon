@@ -506,15 +506,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = K259LN949A;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = UJFG2BWYM4;
 				INFOPLIST_FILE = YOChatEmoticon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pptv.YOChatEmoticon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.padmatek.szhigreenmb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Development;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Padmatek_AppStore_dev;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -526,15 +528,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = K259LN949A;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = UJFG2BWYM4;
 				INFOPLIST_FILE = YOChatEmoticon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pptv.YOChatEmoticon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.padmatek.szhigreenmb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = Development;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Padmatek_AppStore_dev;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

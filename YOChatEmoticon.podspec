@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
     s.license      = "MIT"
     s.author       = { "Marvin" => "yun.orangesky@gmail.com" }
     s.social_media_url = "https://github.com/Marvin0118"
-    s.platform     = :ios, '12.0'
+    s.platform     = :ios, '13.0'
+    s.ios.deployment_target = '13.0'
     s.source       = { :git => "https://github.com/Marvin0118/YOChatEmoticon.git", :tag => s.version.to_s }
 
     s.source_files  = 'YOChatEmoticon/Source/**/*.{h,m,mm}'
